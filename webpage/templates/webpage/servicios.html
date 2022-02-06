@@ -1,0 +1,210 @@
+{% extends "webpage/base.html" %} 
+
+{% load static %} 
+
+{% block content %} 
+
+
+
+<div id="banner-area" class="banner-area" style="background-image:url({% static 'webpage/images/banner/banner1.jpg' %})">
+    <div class="banner-text">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+                <div class="banner-heading">
+                  <h1 class="banner-title">Servicios</h1>
+                  <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Servicios</li>
+                      </ol>
+                  </nav>
+                </div>
+            </div><!-- Col end -->
+          </div><!-- Row end -->
+      </div><!-- Container end -->
+    </div><!-- Banner text end -->
+  </div><!-- Banner area end --> 
+
+  <section id="ts-service-area" class="ts-service-area pb-0">
+    <div class="container">
+      <div class="row text-center">
+          <div class="col-12">
+            <h2 class="section-title">Somos especialistas en</h2>
+            <h3 class="section-sub-title">Lo que hacemos</h3>
+          </div>
+      </div>
+      <!--/ Title row end -->
+  
+      <div class="row">
+          <div class="col-lg-4">
+            <div class="ts-service-box d-flex">
+                <div class="ts-service-box-img">
+                  <img loading="lazy" src="{% static 'webpage/images/icon-image/service-icon1.png' %}" alt="service-icon">
+                </div>
+                <div class="ts-service-box-info">
+                  <h3 class="service-box-title"><a href="#"></a></h3>
+                  <p>Nuestras barreras o talanqueras están diseñadas para resolver sus necesidades de control de estacionamiento.</p>
+                </div>
+            </div><!-- Service 1 end -->
+  
+            <div class="ts-service-box d-flex">
+                <div class="ts-service-box-img">
+                  <img loading="lazy" src="{% static 'webpage/images/icon-image/service-icon2.png' %}" alt="service-icon">
+                </div>
+                <div class="ts-service-box-info">
+                  <h3 class="service-box-title"><a href="#"></a></h3>
+                  <p>Los sistemas de energía ininterrumpible (UPS) brindan protección de energía garantizada para equipos electrónicos conectados</p>
+                </div>
+            </div><!-- Service 2 end -->
+  
+            <div class="ts-service-box d-flex">
+                <div class="ts-service-box-img">
+                  <img loading="lazy" src="{% static 'webpage/images/icon-image/service-icon3.png' %}"  alt="service-icon">
+                </div>
+                <div class="ts-service-box-info">
+                  <h3 class="service-box-title"><a href="#"></a></h3>
+                  <p>Disponibilidad de hilos: 1, 2, 4 hasta 48 (Dependiendo de factibilidad)</p>
+                </div>
+            </div><!-- Service 3 end -->
+  
+          </div><!-- Col end -->
+  
+          <div class="col-lg-4 text-center">
+            <img loading="lazy" class="img-fluid" src="{% static 'webpage/images/services/service-center.jpg' %}" alt="service-avater-image">
+          </div><!-- Col end -->
+  
+          <div class="col-lg-4 mt-5 mt-lg-0 mb-4 mb-lg-0">
+            <div class="ts-service-box d-flex">
+                <div class="ts-service-box-img">
+                  <img loading="lazy" src="{% static 'webpage/images/icon-image/service-icon4.png' %}" alt="service-icon">
+                </div>
+                <div class="ts-service-box-info">
+                  <h3 class="service-box-title"><a href="#"></a></h3>
+                  <p>Dispositivos de última generación tecnológia que incluyen alarmas, controles de acceso y videocámaras para ejercer vigilancia</p>
+                </div>
+            </div><!-- Service 4 end -->
+  
+            <div class="ts-service-box d-flex">
+                <div class="ts-service-box-img">
+                  <img loading="lazy" src="{% static 'webpage/images/icon-image/service-icon5.png' %}" alt="service-icon">
+                </div>
+                <div class="ts-service-box-info">
+                  <h3 class="service-box-title"><a href="#"></a></h3>
+                  <p>Instalación, consultorías, mantenimiento y certificación de puntos de red en interiores y exteriores.</p>
+                </div>
+            </div><!-- Service 5 end -->
+  
+            <div class="ts-service-box d-flex">
+                <div class="ts-service-box-img">
+                  <img loading="lazy" src="{% static 'webpage/images/icon-image/service-icon6.png' %}" alt="service-icon">
+                </div>
+                <div class="ts-service-box-info">
+                  <h3 class="service-box-title"><a href="#"></a></h3>
+                  <p>Un control de acceso ofrece la posibilidad de acceder a recursos físicos o lógicos.</p>
+                </div>
+            </div><!-- Service 6 end -->
+          </div><!-- Col end -->
+      </div><!-- Content row end -->
+  
+    </div>
+    <!--/ Container end -->
+  </section><!-- Service end -->
+
+
+
+  
+  <section id="main-container" class="main-container">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <h2 class="section-title">Paquete de servicios</h2>
+          <h3 class="section-sub-title">Inversión</h3>
+        </div>
+      </div>
+      <!--/ Title row end -->
+  
+      <div class="row">
+  
+        <div class="col-lg-4 col-md-6">
+          <div class="ts-pricing-box">
+            <div class="ts-pricing-header">
+              <h2 class="ts-pricing-name">Cableado Estructurado</h2>
+              <h2 class="ts-pricing-price">
+                <span class="currency">$</span><strong>89.9</strong><small>/mes</small>
+              </h2>
+            </div><!-- Pricing header -->
+            <div class="ts-pricing-features">
+              <ul class="list-unstyled">
+                <li>Project Management for Owners</li>
+                <li>Pre-construction feasibility</li>
+                <li>On-site representation</li>
+                <li>Quality control inspections</li>
+                <li>Schedule claim preparation/defense</li>
+                <li>Project phasing development</li>
+              </ul>
+            </div><!-- Features end -->
+            <div class="plan-action">
+              <a href="#" class="btn btn-dark">Order Now</a>
+            </div>
+          </div><!-- Plan 1 end -->
+        </div><!-- Col end -->
+  
+        <div class="col-lg-4 col-md-6">
+          <div class="ts-pricing-box ts-pricing-featured">
+            <div class="ts-pricing-header">
+              <h2 class="ts-pricing-name">Renovation</h2>
+              <h2 class="ts-pricing-price">
+                <span class="currency">$</span><strong>179.9</strong><small>/Month</small>
+              </h2>
+            </div><!-- Pricing header -->
+            <div class="ts-pricing-features">
+              <ul class="list-unstyled">
+                <li>Project Management for Owners</li>
+                <li>Pre-construction feasibility</li>
+                <li>On-site representation</li>
+                <li>Quality control inspections</li>
+                <li>Schedule claim preparation/defense</li>
+                <li>Project phasing development</li>
+              </ul>
+            </div><!-- Features end -->
+            <div class="plan-action">
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div><!-- Plan 2 end -->
+        </div><!-- Col end -->
+  
+        <div class="col-lg-4 col-md-6">
+          <div class="ts-pricing-box">
+            <div class="ts-pricing-header">
+              <h2 class="ts-pricing-name">Home Construction</h2>
+              <h2 class="ts-pricing-price">
+                <span class="currency">$</span><strong>279.9</strong><small>/Month</small>
+              </h2>
+            </div><!-- Pricing header -->
+            <div class="ts-pricing-features">
+              <ul class="list-unstyled">
+                <li>Project Management for Owners</li>
+                <li>Pre-construction feasibility</li>
+                <li>On-site representation</li>
+                <li>Quality control inspections</li>
+                <li>Schedule claim preparation/defense</li>
+                <li>Project phasing development</li>
+              </ul>
+            </div><!-- Features end -->
+            <div class="plan-action">
+              <a href="#" class="btn btn-dark">Order Now</a>
+            </div>
+          </div><!-- Plan 3 end -->
+        </div><!-- Col end -->
+  
+      </div>
+      <!--/ Content row end -->
+  
+    </div><!-- Conatiner end -->
+  </section><!-- Main container end -->
+
+
+
+
+{% endblock %}
